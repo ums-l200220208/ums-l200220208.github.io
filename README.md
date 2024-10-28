@@ -1,2 +1,2 @@
 # ums-l200220208.github.io
-[Lihat script.py di Repository Lain](https://github.com/username/other-repo/blob/main/kuliah.py)
+[![Lihat kode Python](https://img.shields.io/badge/Lihat-Kode%20Python-blue)](./kuliah_informatika.py)
