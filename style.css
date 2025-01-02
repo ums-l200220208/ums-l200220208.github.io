@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(to right, hsl(0, 0%, 98%), #e6f7ff);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #1e00ff;
+    color: white;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+main {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: rgb(255, 31, 31);
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-color: #1e00ff;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
